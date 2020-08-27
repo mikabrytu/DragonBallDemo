@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3440537717455482699}
   - component: {fileID: 2030543668473940821}
   - component: {fileID: 5658414329314887823}
-  - component: {fileID: 5835683559873564108}
   - component: {fileID: 4734579508993264790}
   m_Layer: 0
   m_Name: Kintoun
@@ -49,7 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Rotation
+      Limit","value":{"x":80.0,"y":80.0,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &5658414329314887823
 MonoBehaviour:
@@ -67,21 +67,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 8fd1e74f2d1364353b94549ca8c6188a, type: 2}
---- !u!114 &5835683559873564108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810775398651734965}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4174ed8fc1bd45049211905fbd2f2cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  offset: {x: 0, y: 0, z: 0}
-  flyingSpeed: 15
-  rotationSpeed: 25
 --- !u!143 &4734579508993264790
 CharacterController:
   m_ObjectHideFlags: 0
