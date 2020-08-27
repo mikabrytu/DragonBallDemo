@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3440537717455482699}
   - component: {fileID: 2030543668473940821}
   - component: {fileID: 5658414329314887823}
-  - component: {fileID: 4734579508993264790}
+  - component: {fileID: 5369734687952060557}
   m_Layer: 0
   m_Name: Kintoun
   m_TagString: Untagged
@@ -67,24 +67,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 8fd1e74f2d1364353b94549ca8c6188a, type: 2}
---- !u!143 &4734579508993264790
-CharacterController:
+--- !u!114 &5369734687952060557
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810775398651734965}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Height: 1
-  m_Radius: 0.8
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.21, z: -0.09}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d60d58f7f9954aa79e53d88eebbc33f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  limits: {x: 0.2, y: 0.8, z: 0.2, w: 0.6}
 --- !u!1 &7246984162662265493
 GameObject:
   m_ObjectHideFlags: 0
