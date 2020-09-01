@@ -9,6 +9,9 @@ ModelImporter:
   - first:
       74: -203655887218126122
     second: mixamo.com
+  - first:
+      74: -3780516532778130023
+    second: Punching Right
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -38,11 +41,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
+      name: Punching Right
+      takeName: mixamo.com
       internalID: 0
-      firstFrame: 2
-      lastFrame: 48
+      firstFrame: 0
+      lastFrame: 34
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
